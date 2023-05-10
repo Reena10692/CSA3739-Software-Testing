@@ -69,10 +69,10 @@ public class test {
 		WebElement login=driver.findElement(By.name("btnlogin"));
 		
 		System.out.println(login);
-		username.sendKeys("192111027");
+		username.sendKeys("");
 		
 		
-		password.sendKeys("kiran@1812");
+		password.sendKeys("");
 		login.click();
 
 	}
